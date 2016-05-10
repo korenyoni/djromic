@@ -3,7 +3,7 @@
 A site for a [DJ](https://soundcloud.com/jromic) who cares about his Soundcloud followers.
 
 ##Thanks to
-* Aerial by HTML5 UP --> html5up.net | @n33co
+* [Aerial by HTML5 UP](http://html5up.net/aerial) --> html5up.net | @n33co
 * [thlorenz/hypernal](https://github.com/thlorenz/hypernal) --> The library used to render terminal output
 
 ##Requirements
