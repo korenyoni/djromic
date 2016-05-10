@@ -1,9 +1,10 @@
-var txt = "";
+var term = require('hypernal')();
+term.tail=true
+term.appendTo('#terminal');
+
 $.get('soundcloudlog.txt', function(data) {
-txt = data});
+    var txt = data
 
-var html = ansi_up.ansi_to_html(txt);
+    term.write(txt);
+});
 
-var cdiv = document.getElementById("terminal");
-
-cdiv.innerHTML = html;
