@@ -3,7 +3,7 @@ term.tail=true
 term.appendTo('#terminal');
 
 // setup websocket with callbacks
-var ws = new WebSocket('ws://localhost:8080/');
+var ws = new WebSocket('wss://localhost:8080/');
 ws.onopen = function() {
   console.log('CONNECT');
   term.write("Connecting to soundcloud...");
